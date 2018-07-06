@@ -10,7 +10,7 @@ echo "Ubuntu 18.04 live"
 rsync --no-motd -zhhP rsync://cdimage.ubuntu.com/cdimage/bionic/daily-live/current/bionic-desktop-amd64.iso .
 rsync --no-motd -zhhP rsync://cdimage.ubuntu.com/cdimage/ubuntu-server/bionic/daily-live/current/bionic-live-server-amd64.iso .
 echo "Archlinux live"
-rsync --no-motd -P rsync://ftp.halifax.rwth-aachen.de/archlinux/iso/2018.03.01/archlinux-2018.03.01-x86_64.iso .
+rsync --no-motd -P rsync://ftp.halifax.rwth-aachen.de/archlinux/iso/latest/archlinux-*-x86_64.iso ./archlinux-x86_64.iso
 echo "Gparted"
 wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-0.31.0-1-i686.iso
 wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-0.31.0-1-amd64.iso
@@ -26,7 +26,6 @@ unzip cd140201.zip
 rm -f cd140201.zip
 mv cd140201.iso ntpasswd.iso
 echo "Tails"
-wget -c -N https://www.mirrorservice.org/sites/dl.amnesia.boum.org/tails/stable/tails-amd64-3.8/tails-amd64-3.8.iso
+wget -c -N -O tails-amd64.iso https://www.mirrorservice.org/sites/dl.amnesia.boum.org/tails/stable/tails-amd64-3.8/tails-amd64-3.8.iso
 echo "Opsi Boot Image"
-wget -c -N http://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20180309.iso
-mv opsi4.1.0-client-boot-cd_20180309.iso opsi4.1.0-client-boot-cd.iso
+wget -c -N -O opsi.iso http://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20180309.iso
