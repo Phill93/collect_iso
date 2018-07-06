@@ -26,7 +26,7 @@ unzip cd140201.zip
 rm -f cd140201.zip
 mv cd140201.iso ntpasswd.iso
 echo "Tails"
-wget -c -N https://mirror.bytemark.co.uk/tails/stable/tails-amd64-3.6.1/tails-amd64-3.6.1.iso
+wget -c -N https://www.mirrorservice.org/sites/dl.amnesia.boum.org/tails/stable/tails-amd64-3.8/tails-amd64-3.8.iso
 echo "Opsi Boot Image"
 wget -c -N http://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20180309.iso
 mv opsi4.1.0-client-boot-cd_20180309.iso opsi4.1.0-client-boot-cd.iso
