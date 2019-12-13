@@ -24,9 +24,9 @@ echo "Archlinux live"
 rsync --no-motd -P rsync://ftp.halifax.rwth-aachen.de/archlinux/iso/latest/archlinux-*-x86_64.iso $LINUX/archlinux-x86_64.iso
 echo "==================="
 echo "Gparted"
-wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-0.33.0-1-i686.iso -O $TOOLS/gparted-live-i686.iso
+wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-1.0.0-5-i686.iso -O $TOOLS/gparted-live-i686.iso
 echo "-------------------"
-wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-0.33.0-1-amd64.iso -O $TOOLS/gparted-live-i686.iso
+wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-1.0.0-5-amd64.iso -O $TOOLS/gparted-live-amd64.iso
 echo "==================="
 echo "Clonezilla"
 wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.0-37-amd64.iso -O $TOOLS/clonezilla-amd64.iso
