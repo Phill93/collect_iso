@@ -51,3 +51,7 @@ wget -c -N -O $TOOLS/opsi.iso https://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-
 echo "==================="
 echo "Rescatux"
 wget -c -N -O $TOOLS/rescatux.iso https://downloads.sourceforge.net/project/rescatux/rescatux-0.72-beta6/rescatux-0.72-beta6.iso
+
+echo "==================="
+echo "==================="
+echo "THE END"
