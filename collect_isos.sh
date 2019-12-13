@@ -12,8 +12,8 @@ mkdir -p $WIN
 mkdir -p $TOOLS
 mkdir -p $VMWARE
 
-echo "Debian 9 Netinstall"
-rsync --no-motd -P ftp-stud.hs-esslingen.de::debian-cd/current/amd64/iso-cd/debian-9.*-amd64-netinst.iso $LINUX/debian-9-amd64-netinst.iso
+echo "Debian 10 Netinstall"
+rsync --no-motd -P ftp-stud.hs-esslingen.de::debian-cd/current/amd64/iso-cd/debian-10.*-amd64-netinst.iso $LINUX/debian-9-amd64-netinst.iso
 echo "==================="
 echo "Ubuntu 18.04 live"
 rsync --no-motd -zhhP rsync://cdimage.ubuntu.com/cdimage/bionic/daily-live/current/bionic-desktop-amd64.iso $LINUX
