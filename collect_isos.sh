@@ -34,7 +34,7 @@ echo "-------------------"
 wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.4-10-i686.iso -O $TOOLS/clonezilla-i686.iso
 echo "==================="
 echo "Super Grub2 Disk"
-wget -c -N https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_hybrid_2.02s10.iso -O $TOOLS/super_grub2_disk.iso
+wget -c -N https://downloads.sourceforge.net/project/supergrub2/2.04s1/super_grub2_disk_2.04s1/super_grub2_disk_hybrid_2.04s1.iso -O $TOOLS/super_grub2_disk.iso
 echo "==================="
 echo "NTPassword Reset"
 rm -f cd140201.iso
