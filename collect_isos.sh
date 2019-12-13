@@ -47,4 +47,5 @@ echo "Tails"
 wget -c -N -O $LINUX/tails-amd64.iso https://mirrors.dotsrc.org/tails/stable/tails-amd64-4.1/tails-amd64-4.1.iso
 echo "==================="
 echo "Opsi Boot Image"
-wget -c -N -O $TOOLS/opsi.iso http://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20181213.iso
+wget -c -N -O $TOOLS/opsi.iso https://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20191211.iso
+echo "==================="
