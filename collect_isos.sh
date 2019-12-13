@@ -29,9 +29,9 @@ echo "-------------------"
 wget -c -N https://downloads.sourceforge.net/gparted/gparted-live-1.0.0-5-amd64.iso -O $TOOLS/gparted-live-amd64.iso
 echo "==================="
 echo "Clonezilla"
-wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.0-37-amd64.iso -O $TOOLS/clonezilla-amd64.iso
+wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.4-10-amd64.iso -O $TOOLS/clonezilla-amd64.iso
 echo "-------------------"
-wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.0-37-i686.iso -O $TOOLS/clonezilla-i686.iso
+wget -c -N http://downloads.sourceforge.net/clonezilla/clonezilla-live-2.6.4-10-i686.iso -O $TOOLS/clonezilla-i686.iso
 echo "==================="
 echo "Super Grub2 Disk"
 wget -c -N https://sourceforge.net/projects/supergrub2/files/2.02s10/super_grub2_disk_2.02s10/super_grub2_disk_hybrid_2.02s10.iso -O $TOOLS/super_grub2_disk.iso
