@@ -44,7 +44,7 @@ rm -f cd140201.zip
 mv cd140201.iso $TOOLS/ntpasswd.iso
 echo "==================="
 echo "Tails"
-wget -c -N -O $LINUX/tails-amd64.iso https://tails.fuxia.org/tails/stable/tails-amd64-3.12.1/tails-amd64-3.12.1.iso
+wget -c -N -O $LINUX/tails-amd64.iso https://mirrors.dotsrc.org/tails/stable/tails-amd64-4.1/tails-amd64-4.1.iso
 echo "==================="
 echo "Opsi Boot Image"
 wget -c -N -O $TOOLS/opsi.iso http://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20181213.iso
