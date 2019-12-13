@@ -49,3 +49,5 @@ echo "==================="
 echo "Opsi Boot Image"
 wget -c -N -O $TOOLS/opsi.iso https://download.uib.de/opsi4.1/boot-cd/opsi4.1.0-client-boot-cd_20191211.iso
 echo "==================="
+echo "Opsi Boot Image"
+wget -c -N -O $TOOLS/rescatux.iso https://downloads.sourceforge.net/project/rescatux/rescatux-0.72-beta6/rescatux-0.72-beta6.iso
